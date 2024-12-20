@@ -1,0 +1,64 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+ENV/
+.env/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Python environment files
+*.env
+*.venv
+*.envrc
+
+# Test and coverage reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pip dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Specific to your project (customize as needed)
+# e.g., Exclude generated config, secrets, etc.
+config.json
+secrets.yaml
+
+# Kivy-specific files
+*.spec
+*.apk
+*.keystore
+__pyinstaller__/
+buildozer.spec
